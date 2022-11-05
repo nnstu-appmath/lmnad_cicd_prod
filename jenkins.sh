@@ -1,5 +1,5 @@
 #!/bin/bash
 git clone https://github.com/nnstu-appmath/lmnad.git
-python --version
+python3 --version
 cd lmnad
 docker-compose up -d --build
