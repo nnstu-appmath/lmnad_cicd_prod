@@ -1,6 +1,6 @@
 #!/bin/bash
 docker-compose down --remove-orphans
-docker system prune
+docker system prune -y
 cd lmnad
 docker-compose pull
 docker-compose up -d --build
