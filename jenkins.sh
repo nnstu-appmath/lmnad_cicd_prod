@@ -4,4 +4,4 @@ docker system prune -y
 cd lmnad
 docker-compose -f docker-compose.dev.yml up -d --build
 docker ps
-docker logs lmnad_web
+docker logs lmnad_web_dev
