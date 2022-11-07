@@ -1,5 +1,5 @@
 #!/bin/bash
-git clone https://github.com/PeshinaA/lmnad.git
+#git clone https://github.com/PeshinaA/lmnad.git
 #docker stop $(docker ps -a -q)
 #docker rm $(docker ps -qa)
 #docker-compose -f lmnad/docker-compose.dev.yml up -d --build
