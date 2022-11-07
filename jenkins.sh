@@ -1,6 +1,6 @@
 #!/bin/bash
-docker-compose down --remove-orphans
-docker system prune -y
+docker stop $(docker ps -a -q)
+docker rm $(docker ps -qa)
 cd lmnad
 docker-compose -f docker-compose.dev.yml up -d --build
 docker ps
