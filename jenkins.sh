@@ -1,4 +1,5 @@
 #!/bin/bash
 git clone https://github.com/nnstu-appmath/lmnad.git
-cd lmnad
-docker-compose up -d --build
+docker run hello-world
+#cd lmnad
+#docker-compose up -d --build
